@@ -1,56 +1,49 @@
-# Hospital Management System 🏥
+# 🏥 Hospital Management System
 
-A simple hospital management system made using Python (Tkinter) and MySQL.
+A simple Hospital Management System built using Python (Tkinter) and MySQL for the backend.
 
----
+## 🚀 How to Run
 
-## How to Run
+1. Make sure you have Python 3 installed.  
+2. Install the required Python package:
 
-1. Make sure you have Python 3 installed.
-2. Install required package:
-
-```bash
+```
 pip install mysql-connector-python
+```
 
-Set up your own MySQL database — this app connects to localhost, so create your own database and tables as needed.
+3. Set up your own MySQL database — this app connects to `localhost`, so:  
+   - Create your own database and tables.  
+   - Update the database connection settings in `login.py` with your MySQL username, password, and database name.
 
-Update the database connection settings in login.py to match your MySQL user, password, and database name.
+4. Run the app:
 
-Run the app:
-
-bash
-Copy
-Edit
+```
 python login.py
-Default login credentials:
+```
 
-Username: admin
+## 🔐 Default Login Credentials
 
-Password: 12345
+Username: `admin`  
+Password: `12345`  
 
-(You can change these in login.py)
+(You can change these in `login.py`)
 
-Modules Included
-Patient
+## 📦 Modules Included
 
-Doctor
+- Patient  
+- Doctor  
+- Lab  
+- Appointment  
+- Medical Record  
+- Nurse  
+- Staff  
+- Prescription  
+- Room  
+- Bill  
 
-Lab
+All modules are accessible from the main dashboard.
 
-Appointment
+## 👨‍💻 Author
 
-Medical Record
-
-Nurse
-
-Staff
-
-Prescription
-
-Room
-
-Bill
-
-All accessible from the main dashboard.
-
-Made by Tarun Parthiban – B.Tech CSE (AI & Robotics), VIT Chennai
+Tarun Parthiban  
+B.Tech CSE (AI & Robotics), VIT Chennai
